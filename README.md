@@ -23,6 +23,14 @@ To ensure high performance and scalability, I normalized the data into a **Relat
 * **Dimension Tables:** * `DrugLookup`: Product pricing, production costs, and medical treatment categories.
     * `CustomerTable`: Demographic details (Age, Gender, Geography, Buyer Segment).
     * `RegulatoryCompliance`: Legal status (FDA, EMA, Pending Review).
+
+ ## Data Architecture & Relational Mapping
+The strength of this dashboard lies in its relational integrity. I implemented a Star Schema to connect transactional sales data with dimensional attributes, ensuring high-performance filtering and accurate DAX calculations.
+  <img width="1127" height="525" alt="image" src="https://github.com/user-attachments/assets/c2ff1df4-7bba-48e3-8168-28246c785d8f" />
+
+Explanation for the Screenshot:
+* One-to-Many Relationships: Mention that you used 1:* relationships (the lines with 1 and *) to connect DrugID and CustomerID from the lookup tables to the FactTable.
+* Filter Flow: Explain that the filters flow from the Dimension tables (Lookup) down to the Fact table, which allows you to slice revenue by "Regulatory Body" or "Buyer Type" effortlessly.
  
 ## 🧠 Advanced DAX Logic (Technical Appendix)
 I developed several custom measures to drive the dashboard's intelligence:
@@ -72,4 +80,7 @@ Drug sales poster.pdf: High-level summary and Tableau comparison.
 
 Drug Sales Analysis Write-up.docx: Detailed project methodology.
 
-## 👉 [Click Here to View My Interactive Power BI Dashboard](
+## 👉 [Click Here to View My Interactive Power BI Dashboard](https://app.powerbi.com/groups/me/reports/a9cf98cd-d871-4e78-83a5-adbdeb94becb?ctid=d7270324-ea10-47a1-ae5f-74dba073f8fd&pbi_source=linkShare) 
+<img width="1117" height="630" alt="image" src="https://github.com/user-attachments/assets/e33210e0-ff9d-4bbd-8da8-a2dce80656e7" />
+
+
