@@ -26,7 +26,7 @@ To ensure high performance and scalability, I normalized the data into a **Relat
 
  ## Data Architecture & Relational Mapping
 The strength of this dashboard lies in its relational integrity. I implemented a Star Schema to connect transactional sales data with dimensional attributes, ensuring high-performance filtering and accurate DAX calculations.
-  <img width="1127" height="525" alt="image" src="https://github.com/user-attachments/assets/c2ff1df4-7bba-48e3-8168-28246c785d8f" />
+  ![Data Model View](model_view.png)
 
 Explanation for the Screenshot:
 * One-to-Many Relationships: Mention that you used 1:* relationships (the lines with 1 and *) to connect DrugID and CustomerID from the lookup tables to the FactTable.
