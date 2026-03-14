@@ -10,6 +10,8 @@ To ensure 100% accessibility and transparency, I have provided two ways to acces
 
 1. **[🌐 View Live Dashboard (Power BI Service)](https://app.powerbi.com/groups/me/reports/a9cf98cd-d871-4e78-83a5-adbdeb94becb?ctid=d7270324-ea10-47a1-ae5f-74dba073f8fd&pbi_source=linkShare )** *Best for a quick, cloud-hosted interactive overview.*
 2. **[📥 Download .PBIX File (Google Drive)](https://drive.google.com/file/d/1EoJVB0yLUTPeeM6k1UeLywfyKyguIEUw/view?usp=sharing)** > **Note:** Google Drive may display this as a "compressed archive." Please click **Download** to open the file in Power BI Desktop to see the full interactivity and Star Schema.
+
+This project provides a comprehensive analysis of global pharmaceutical sales, transforming fragmented data into a strategic business tool. I built an interactive Power BI solution to track revenue performance across 10+ countries, specifically focusing on how regulatory compliance (FDA/EMA) and sales periodicity impact profit margins.
    
 ## 📌 Project Overview
 This project provides a deep-dive analysis of global pharmaceutical sales, transforming raw transactional data into actionable business intelligence. By building a robust **Star Schema** model, I identified key revenue drivers, peak sales periods, and the impact of regulatory compliance on market performance.
@@ -33,6 +35,9 @@ To ensure high performance and scalability, I normalized the data into a **Relat
 * **Dimension Tables:** * `DrugLookup`: Product pricing, production costs, and medical treatment categories.
     * `CustomerTable`: Demographic details (Age, Gender, Geography, Buyer Segment).
     * `RegulatoryCompliance`: Legal status (FDA, EMA, Pending Review).
+      
+I engineered a Relational Star Schema to normalize flat transactional data, establishing
+1: relationships between a central Fact table and Dimension tables. This architecture ensures high-performance filtering and allows for complex DAX measures like iterative revenue calculation **(SUMX)**  and Month-over-Month growth tracking.
 
  ## Data Architecture & Relational Mapping
 The strength of this dashboard lies in its relational integrity. I implemented a Star Schema to connect transactional sales data with dimensional attributes, ensuring high-performance filtering and accurate DAX calculations.
@@ -81,6 +86,8 @@ DIVIDE(CurrentMonth - PreviousMonth, PreviousMonth)
 **Customer Segmentation & Geography**
  * Top-Tier Buyers: "Preferred Customers" represent a small fraction of count but over 60% of total revenue.
  * Geographic Dominance: The United States and Australia are the top revenue generators.
+
+**Strategic Impact**: By identifying consistent mid-week procurement surges on Tuesdays and Wednesdays, this model allows for optimized supply chain replenishment. Additionally, the analysis revealed that FDA/EMA-compliant drugs account for 78% of stable revenue, quantifying the direct financial importance of regulatory speed.
 
 ## 📂 Repository Contents
 Drug Sales Analysis.pbix: The interactive Power BI dashboard.
