@@ -1,6 +1,16 @@
 # 💊 Pharmaceutical Sales Strategy & Regulatory Analytics
-**Interactive Power BI Solution | Relational Data Modeling | DAX Logic**
+**Interactive Business Intelligence Solution | Relational Modeling | DAX Logic**
 
+<p align="center">
+  <img src="dashboard_preview.png" width="550" alt="Dashboard Preview">
+</p>
+
+## 🚀 Explore the Interactive Project
+To ensure 100% accessibility and transparency, I have provided two ways to access this analysis:
+
+1. **[🌐 View Live Dashboard (Power BI Service)](https://app.powerbi.com/groups/me/reports/a9cf98cd-d871-4e78-83a5-adbdeb94becb?ctid=d7270324-ea10-47a1-ae5f-74dba073f8fd&pbi_source=linkShare )** *Best for a quick, cloud-hosted interactive overview.*
+2. **[📥 Download .PBIX File (Google Drive)](https://drive.google.com/file/d/1EoJVB0yLUTPeeM6k1UeLywfyKyguIEUw/view?usp=sharing)** > **Note:** Google Drive may display this as a "compressed archive." Please click **Download** to open the file in Power BI Desktop to see the full interactivity and Star Schema.
+   
 ## 📌 Project Overview
 This project provides a deep-dive analysis of global pharmaceutical sales, transforming raw transactional data into actionable business intelligence. By building a robust **Star Schema** model, I identified key revenue drivers, peak sales periods, and the impact of regulatory compliance on market performance.
 
@@ -81,8 +91,7 @@ Drug sales poster.pdf: High-level summary and Tableau comparison.
 
 Drug Sales Analysis Write-up.docx: Detailed project methodology.
 
-### 👉 [Click Here to View My Interactive Power BI Dashboard](https://app.powerbi.com/groups/me/reports/a9cf98cd-d871-4e78-83a5-adbdeb94becb?ctid=d7270324-ea10-47a1-ae5f-74dba073f8fd&pbi_source=linkShare) 
-
-<img src="dashboard_preview.png" width="600" alt="Dashboard Preview">
+## 👤 Author
+Tejashwini Saravanan [LinkedIn](https://www.linkedin.com/in/tejashwinisaravanan/)
 
 
