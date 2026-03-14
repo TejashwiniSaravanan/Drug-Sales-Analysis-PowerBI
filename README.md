@@ -5,7 +5,7 @@
   <img src="dashboard_preview.png" width="550" alt="Dashboard Preview">
 </p>
 
-## 🚀 Explore the Interactive Project
+## 🚀 Explore the Interactive Project 
 To ensure 100% accessibility and transparency, I have provided two ways to access this analysis:
 
 1. **[🌐 View Live Dashboard (Power BI Service)](https://app.powerbi.com/groups/me/reports/a9cf98cd-d871-4e78-83a5-adbdeb94becb?ctid=d7270324-ea10-47a1-ae5f-74dba073f8fd&pbi_source=linkShare )** *Best for a quick, cloud-hosted interactive overview.*
