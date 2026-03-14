@@ -81,6 +81,7 @@ Drug sales poster.pdf: High-level summary and Tableau comparison.
 Drug Sales Analysis Write-up.docx: Detailed project methodology.
 
 ## 👉 [Click Here to View My Interactive Power BI Dashboard](https://app.powerbi.com/groups/me/reports/a9cf98cd-d871-4e78-83a5-adbdeb94becb?ctid=d7270324-ea10-47a1-ae5f-74dba073f8fd&pbi_source=linkShare) 
-<img width="1117" height="630" alt="image" src="https://github.com/user-attachments/assets/e33210e0-ff9d-4bbd-8da8-a2dce80656e7" />
+
+ ![Data Model View](dashboard_preview.png)
 
 
